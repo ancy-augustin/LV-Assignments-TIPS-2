@@ -1,0 +1,141 @@
+# name: Run Acceptance Tests
+
+# on:
+#   pull_request:
+#     branches: ["main"]
+
+#   workflow_dispatch:
+
+# jobs:
+#   # ------------------------------------------------------------------------------------------------------------------------------------------------
+#   # Event `pull_request`: Compare the last commit of the main branch or last remote commit of the PR branch -> to the current commit of a PR branch.
+#   # ------------------------------------------------------------------------------------------------------------------------------------------------
+  
+#   changed_files:
+  
+#     runs-on: self-hosted
+#     name: Test changed-files
+#     steps:
+#       - uses: actions/checkout@v3
+#         with:
+#           fetch-depth: 0  
+
+#       - name: Open LabVIEW
+#         run: |
+#             start "C:\Program Files\National Instruments\LabVIEW 2020\LabVIEW.exe"
+
+#       - name: Get changed files in the src folder
+#         id: changed-files-specific
+#         uses: tj-actions/changed-files@v37
+#         with:
+#           files: src/**/*.vi  
+#           separator: ","          
+
+#       - name: Run Tests
+#         run: |
+#             # Function to find test vi files
+
+#             $errorIn = "false"
+
+#             function Find-ViFiles {
+#                 param (
+#                     [string]$path
+#                 )
+#                 Get-ChildItem $path -Recurse | ForEach-Object {
+#                     if ($_.PSIsContainer) {
+#                         Find-ViFiles $_.FullName
+#                     }
+#                     elseif ($_.Name -like "Test*.vi" -or $_.Name -like "test*.vi") {
+#                         $isFileExist = $true
+#                         Write-Output ("`n`nFound .vi file: " + $_.FullName)
+#                         Write-Output ("Running unit test file " + $_.FullName)
+#                         $output = g-cli --lv-ver 2020 $_.FullName
+#                         Write-Output ("$output")
+#                         if ($output -ne $null) {
+#                           $errorIn = "true"
+#                         }
+#                     }
+#                 }
+#                 if ($isFileExist -eq $false) {
+#                   Write-Output "No test files found"
+#                 }
+
+#                 # Checks for Test Suite errors and returns true/false
+#                 if ($errorIn -eq "true") {
+#                   return $true
+#                 }
+#                 else {
+#                   return $false
+#                 }
+#             }      
+
+#             echo "One or more files in the src folder has changed."
+#             echo "List all the files that have changed: ${{ steps.changed-files-specific.outputs.all_changed_files }}"
+
+#             $workspace = "${{ github.workspace }}"
+#             $workspace_path = $workspace.Replace("\", "/")
+
+#             $changed_file = "${{ steps.changed-files-specific.outputs.all_changed_files }}"
+#             $changedFiles = $changed_file -split ',' 
+
+#             $isFileExist = $false
+#             $flag = $false
+#             $listOfLvfiles = @()  
+#             $uniqueList = @()
+#             $test_error = @()
+
+#              foreach ($file in $changedFiles)
+#              {
+#                 $flag = $false
+#                 while ($flag -eq $false) {
+#                   $targetDirectory = Split-Path $file -Parent
+
+#                   # Get all .lvproj files in the directory
+#                   $lvprojFiles = Get-ChildItem -Path $targetDirectory -Filter "*.lvproj" -File
+
+#                   if ($lvprojFiles.Count -gt 0) {
+
+#                     $flag = $true
+#                     $listOfLvfiles += $lvprojFiles.FullName
+
+#                   }
+#                   $file = $targetDirectory
+#                 }
+                              
+#               }
+#               $uniqueList = $listOfLvfiles | Select-Object -Unique
+#               Write-Host $uniqueList 
+
+#               foreach ($lvprojFile in $uniqueList) 
+#               {
+#                 LabVIEWCLI -OperationName RunVI -VIPath "${{ github.workspace }}\src\Project file\OpenProject.vi" $lvprojFile
+#                 $directory = Split-Path $lvprojFile -Parent
+#                 $TestPath = "$directory\Tests"
+#                 echo "Test Path: $TestPath"
+#                 $test_error += $(Find-ViFiles $TestPath)
+#                 LabVIEWCLI -OperationName RunVI -VIPath "${{ github.workspace }}\src\Project file\CloseProject.vi" $lvprojFile
+#              }
+
+#              if ($test_error -contains $true)
+#              {
+#                 Exit 1
+#              }
+
+
+#       - name: Test Report as Artifact
+#         if: ${{ always() }}
+#         uses: actions/upload-artifact@v3
+#         with:
+#           name: test report
+#           path: |
+#             ${{ github.workspace }}\src\**\Tests\*.txt   
+
+
+#       - name: Close LabVIEW
+#         if: ${{ always() }}
+#         run: |
+#             taskkill /im LabVIEW.exe
+#         shell: cmd       
+
+
+             
