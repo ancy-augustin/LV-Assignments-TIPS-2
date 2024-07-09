@@ -15,6 +15,7 @@
 		<Item Name="Source" Type="Folder">
 			<Item Name="File Explorer 2.0" Type="Folder">
 				<Item Name="Controls" Type="Folder">
+					<Item Name="Error Details.ctl" Type="VI" URL="../Controls/Error Details.ctl"/>
 					<Item Name="File explorer Data.ctl" Type="VI" URL="../Controls/File explorer Data.ctl"/>
 					<Item Name="Item.ctl" Type="VI" URL="../Controls/Item.ctl"/>
 					<Item Name="Queue Element.ctl" Type="VI" URL="../Controls/Queue Element.ctl"/>
