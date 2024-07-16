@@ -1,0 +1,47 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>23.3.3f3</Version>
+<Array>
+<Name>Instance Data Array</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name></Name>
+<NumElts>2</NumElts>
+<Object>
+<Name>Class Data</Name>
+<NumLevels>2</NumLevels>
+<Class>Add.lvclass</Class>
+<Version>1.0.0.4</Version>
+<Version>1.0.0.5</Version>
+<Cluster>
+<Name>Arithemetic Operation.lvclass</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>A</Name>
+<Val>10.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>B</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>C</Name>
+<Val>10.00000000000000</Val>
+</DBL>
+<Refnum>
+<Name>VI Refnum</Name>
+<RefKind>LV Object</RefKind>
+<RefType>VI</RefType>
+<Val>0x8C60004C</Val>
+</Refnum>
+</Cluster>
+<Cluster>
+</Cluster>
+</Object>
+<String>
+<Name>Name</Name>
+<Val>Add_0</Val>
+</String>
+</Cluster>
+</Array>
+</LVData>
