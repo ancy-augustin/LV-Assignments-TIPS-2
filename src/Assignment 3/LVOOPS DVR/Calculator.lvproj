@@ -37,15 +37,17 @@
 				<Item Name="Class Data.ctl" Type="VI" URL="../Typedef/Class Data.ctl"/>
 				<Item Name="DVR Ref.ctl" Type="VI" URL="../Typedef/DVR Ref.ctl"/>
 				<Item Name="User Event Operations.ctl" Type="VI" URL="../Typedef/User Event Operations.ctl"/>
+				<Item Name="User Event Data.ctl" Type="VI" URL="../Typedef/User Event Data.ctl"/>
 			</Item>
 			<Item Name="SubVI" Type="Folder">
 				<Item Name="Queue Driver.vi" Type="VI" URL="../SubVI/Queue Driver.vi"/>
-				<Item Name="User Event LV2 Class Data.vi" Type="VI" URL="../SubVI/User Event LV2 Class Data.vi"/>
-				<Item Name="User Event LV2 Stop.vi" Type="VI" URL="../SubVI/User Event LV2 Stop.vi"/>
+				<Item Name="User Event LV2.vi" Type="VI" URL="../SubVI/User Event LV2.vi"/>
 			</Item>
-			<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-			<Item Name="Instance Data.xml" Type="Document" URL="../Instance Data.xml"/>
+			<Item Name="Files" Type="Folder">
+				<Item Name="Instance Data.xml" Type="Document" URL="../Instance Data.xml"/>
+			</Item>
 		</Item>
+		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
