@@ -44,7 +44,7 @@
 				<Item Name="User Event LV2.vi" Type="VI" URL="../SubVI/User Event LV2.vi"/>
 			</Item>
 			<Item Name="Files" Type="Folder">
-				<Item Name="Instance Data.xml" Type="Document" URL="../Instance Data.xml"/>
+				<Item Name="Instance Data.xml" Type="Document" URL="../Files/Instance Data.xml"/>
 			</Item>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
