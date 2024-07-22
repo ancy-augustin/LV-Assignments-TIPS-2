@@ -1,0 +1,184 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>23.3.3f3</Version>
+<Array>
+<Name>Instance Data Array</Name>
+<Dimsize>4</Dimsize>
+<Cluster>
+<Name></Name>
+<NumElts>2</NumElts>
+<Object>
+<Name>Class Data</Name>
+<NumLevels>2</NumLevels>
+<Class>Add.lvclass</Class>
+<Version>1.0.0.5</Version>
+<Version>1.0.0.6</Version>
+<Cluster>
+<Name>Arithemetic Operation.lvclass</Name>
+<NumElts>5</NumElts>
+<DBL>
+<Name>A</Name>
+<Val>8.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>B</Name>
+<Val>6.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>C</Name>
+<Val>14.00000000000000</Val>
+</DBL>
+<Refnum>
+<Name>VI Refnum</Name>
+<RefKind>LV Object</RefKind>
+<RefType>VI</RefType>
+<Val>0x3B10003B</Val>
+</Refnum>
+<Refnum>
+<Name>User Event Ref</Name>
+<RefKind>User Event Refnum</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+</Cluster>
+<Cluster>
+</Cluster>
+</Object>
+<String>
+<Name>Name</Name>
+<Val>Add_0</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>2</NumElts>
+<Object>
+<Name>Class Data</Name>
+<NumLevels>2</NumLevels>
+<Class>Divide.lvclass</Class>
+<Version>1.0.0.3</Version>
+<Version>1.0.0.6</Version>
+<Cluster>
+<Name>Arithemetic Operation.lvclass</Name>
+<NumElts>5</NumElts>
+<DBL>
+<Name>A</Name>
+<Val>6.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>B</Name>
+<Val>3.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>C</Name>
+<Val>2.00000000000000</Val>
+</DBL>
+<Refnum>
+<Name>VI Refnum</Name>
+<RefKind>LV Object</RefKind>
+<RefType>VI</RefType>
+<Val>0x3B20003A</Val>
+</Refnum>
+<Refnum>
+<Name>User Event Ref</Name>
+<RefKind>User Event Refnum</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+</Cluster>
+<Cluster>
+</Cluster>
+</Object>
+<String>
+<Name>Name</Name>
+<Val>Divide_0</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>2</NumElts>
+<Object>
+<Name>Class Data</Name>
+<NumLevels>2</NumLevels>
+<Class>Multiply.lvclass</Class>
+<Version>1.0.0.3</Version>
+<Version>1.0.0.6</Version>
+<Cluster>
+<Name>Arithemetic Operation.lvclass</Name>
+<NumElts>5</NumElts>
+<DBL>
+<Name>A</Name>
+<Val>7.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>B</Name>
+<Val>7.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>C</Name>
+<Val>49.00000000000000</Val>
+</DBL>
+<Refnum>
+<Name>VI Refnum</Name>
+<RefKind>LV Object</RefKind>
+<RefType>VI</RefType>
+<Val>0x3B300038</Val>
+</Refnum>
+<Refnum>
+<Name>User Event Ref</Name>
+<RefKind>User Event Refnum</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+</Cluster>
+<Cluster>
+</Cluster>
+</Object>
+<String>
+<Name>Name</Name>
+<Val>Multiply_0</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>2</NumElts>
+<Object>
+<Name>Class Data</Name>
+<NumLevels>2</NumLevels>
+<Class>Subtract.lvclass</Class>
+<Version>1.0.0.3</Version>
+<Version>1.0.0.6</Version>
+<Cluster>
+<Name>Arithemetic Operation.lvclass</Name>
+<NumElts>5</NumElts>
+<DBL>
+<Name>A</Name>
+<Val>-5.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>B</Name>
+<Val>-2.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>C</Name>
+<Val>-3.00000000000000</Val>
+</DBL>
+<Refnum>
+<Name>VI Refnum</Name>
+<RefKind>LV Object</RefKind>
+<RefType>VI</RefType>
+<Val>0x3B400039</Val>
+</Refnum>
+<Refnum>
+<Name>User Event Ref</Name>
+<RefKind>User Event Refnum</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+</Cluster>
+<Cluster>
+</Cluster>
+</Object>
+<String>
+<Name>Name</Name>
+<Val>Subtract_0</Val>
+</String>
+</Cluster>
+</Array>
+</LVData>
