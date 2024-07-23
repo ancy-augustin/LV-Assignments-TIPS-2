@@ -1,4 +1,0 @@
-C:\My Assignments\TIPS2\TIPS2\CA1\Files\Path.txt
-C:\My Assignments\TIPS2\TIPS2\CA1\Files\Log.csv
-C:\My Assignments\TIPS2\TIPS2\CA1\Custom Sort Paths.lvproj
-C:\My Assignments\TIPS2\TIPS2\CA1\Custom Sort Paths.lvlps
