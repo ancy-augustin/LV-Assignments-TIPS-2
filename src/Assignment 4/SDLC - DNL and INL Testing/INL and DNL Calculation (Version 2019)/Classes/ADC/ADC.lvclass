@@ -46,7 +46,7 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		</Item>
 		<Item Name="Obtain Actual Voltage.vi" Type="VI" URL="../Methods/Obtain Actual Voltage.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%'!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!"Z!=!!?!!!.#U&amp;%1SZM&gt;G.M98.T!!&gt;"2%-A&lt;X6U!":!5!!$!!!!!1!##%6S=G^S)%FO!!!81!I!%%6S=G^S)&amp;"F=G.F&lt;H2B:W5!!"Z!=!!?!!!.#U&amp;%1SZM&gt;G.M98.T!!:"2%-A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!I!!!#3!!!!!!%!#1!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%'!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!"Z!=!!?!!!.#U&amp;%1SZM&gt;G.M98.T!!&gt;"2%-A&lt;X6U!":!5!!$!!!!!1!##%6S=G^S)%FO!!!81!I!%%6S=G^S)&amp;"F=G.F&lt;H2B:W5!!"Z!=!!?!!!.#U&amp;%1SZM&gt;G.M98.T!!:"2%-A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!A!!!#3!!!!!!%!#1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">134217728</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>

@@ -17,10 +17,10 @@
 			<Item Name="INL DNL" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="SubVI" Type="Folder">
-					<Item Name="Generate Actual Voltage.vi" Type="VI" URL="../../INL and DNL Calculation/SubVI/Generate Actual Voltage.vi"/>
 					<Item Name="Generate INL Straight Lines.vi" Type="VI" URL="../SubVI/Generate INL Straight Lines.vi"/>
 					<Item Name="Queue Driver.vi" Type="VI" URL="../SubVI/Queue Driver.vi"/>
 					<Item Name="User Event LV2.vi" Type="VI" URL="../SubVI/User Event LV2.vi"/>
+					<Item Name="Generate Actual Voltage.vi" Type="VI" URL="../SubVI/Generate Actual Voltage.vi"/>
 				</Item>
 				<Item Name="Typedef" Type="Folder">
 					<Item Name="INL and DNL calculation data.ctl" Type="VI" URL="../Typedef/INL and DNL calculation data.ctl"/>
