@@ -24,6 +24,7 @@
 						<Item Name="Message Type.lvclass" Type="LVClass" URL="../Classes/Message Type/Message Type.lvclass"/>
 						<Item Name="Notify Only.lvclass" Type="LVClass" URL="../Classes/Message Type/Notify Only/Notify Only.lvclass"/>
 						<Item Name="Notify with Message.lvclass" Type="LVClass" URL="../Classes/Message Type/Notify with Message/Notify with Message.lvclass"/>
+						<Item Name="Stream.lvclass" Type="LVClass" URL="../Classes/Message Type/Stream/Stream.lvclass"/>
 					</Item>
 					<Item Name="User Receiver" Type="Folder">
 						<Item Name="User Receiver.lvclass" Type="LVClass" URL="../Classes/User Receiver/User Receiver.lvclass"/>
@@ -41,13 +42,16 @@
 				</Item>
 				<Item Name="SubVI" Type="Folder">
 					<Item Name="Queue Driver-Receive.vi" Type="VI" URL="../SubVI/Queue Driver-Receive.vi"/>
+					<Item Name="Queue Driver-Sender.vi" Type="VI" URL="../SubVI/Queue Driver-Sender.vi"/>
 					<Item Name="Queue Driver.vi" Type="VI" URL="../SubVI/Queue Driver.vi"/>
 					<Item Name="User Event LV2-Receive.vi" Type="VI" URL="../SubVI/User Event LV2-Receive.vi"/>
+					<Item Name="User Event LV2-Sender.vi" Type="VI" URL="../SubVI/User Event LV2-Sender.vi"/>
 					<Item Name="User Event LV2.vi" Type="VI" URL="../SubVI/User Event LV2.vi"/>
 				</Item>
 				<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 			</Item>
 		</Item>
+		<Item Name="Message Type.ctl" Type="VI" URL="../Controls/Message Type.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
