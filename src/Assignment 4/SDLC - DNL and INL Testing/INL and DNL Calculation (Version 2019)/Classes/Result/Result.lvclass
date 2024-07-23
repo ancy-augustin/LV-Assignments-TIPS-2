@@ -19,7 +19,7 @@
 	</Item>
 	<Item Name="Methods" Type="Folder">
 		<Item Name="Obtain Status.vi" Type="VI" URL="../Methods/Obtain Status.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;C!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%%!Q`````Q:4&gt;'&amp;U&gt;8-!!%N!&amp;Q!&amp;#5BP&lt;75A5'&amp;H:1F.&lt;W2F)&amp;"B:W531W^O:GFH&gt;8*B&gt;'FP&lt;C"197&gt;F#EFO=(6U)&amp;"B:W5,5G6T&gt;7RU)&amp;"B:W5!"&amp;"B:W5!!#:!=!!?!!!1$F*F=X6M&gt;#ZM&gt;G.M98.T!!!+5G6T&gt;7RU)'^V&gt;!!!"!!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!*%"Q!"Y!!"!/5G6T&gt;7RU,GRW9WRB=X-!!!F3:8.V&lt;(1A;7Y!6!$Q!!Q!!Q!%!!5!"A!(!!=!"Q!(!!A!"Q!(!!E#!!"Y!!!.#!!!#1!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!*!!!!!!!1!+!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;9!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!%%!Q`````Q:4&gt;'&amp;U&gt;8-!!%N!&amp;Q!&amp;#5BP&lt;75A5'&amp;H:1F.&lt;W2F)&amp;"B:W531W^O:GFH&gt;8*B&gt;'FP&lt;C"197&gt;F#EFO=(6U)&amp;"B:W5,5G6T&gt;7RU)&amp;"B:W5!"&amp;"B:W5!!#:!=!!?!!!1$F*F=X6M&gt;#ZM&gt;G.M98.T!!!+5G6T&gt;7RU)'^V&gt;!!!"!!!!":!5!!$!!!!!1!##%6S=G^S)%FO!!!E1(!!(A!!%!Z3:8.V&lt;(1O&lt;(:D&lt;'&amp;T=Q!!#6*F=X6M&gt;#"J&lt;A"5!0!!$!!$!!1!"1!'!!=!"Q!(!!=!#!!(!!=!#1)!!(A!!!U)!!!*!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!I!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">134217728</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>

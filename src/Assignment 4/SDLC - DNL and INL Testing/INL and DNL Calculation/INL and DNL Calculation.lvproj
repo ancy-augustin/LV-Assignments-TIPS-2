@@ -48,14 +48,20 @@
 						</Item>
 						<Item Name="Mode" Type="Folder">
 							<Item Name="Mode.lvclass" Type="LVClass" URL="../Classes/Mode/Mode.lvclass"/>
-							<Item Name="ADC.lvclass" Type="LVClass" URL="../Classes/DAC/ADC.lvclass"/>
-							<Item Name="DAC.lvclass" Type="LVClass" URL="../Classes/ADC/DAC.lvclass"/>
+							<Item Name="ADC.lvclass" Type="LVClass" URL="../Classes/ADC/ADC.lvclass"/>
+							<Item Name="DAC.lvclass" Type="LVClass" URL="../Classes/DAC/DAC.lvclass"/>
 						</Item>
 						<Item Name="Result" Type="Folder">
 							<Item Name="Result.lvclass" Type="LVClass" URL="../Classes/Result/Result.lvclass"/>
 						</Item>
 					</Item>
 					<Item Name="Application.lvclass" Type="LVClass" URL="../Classes/Application/Application.lvclass"/>
+				</Item>
+				<Item Name="Images" Type="Folder">
+					<Item Name="Configuration Page.png" Type="Document" URL="../Images/Configuration Page.png"/>
+					<Item Name="Home Page.png" Type="Document" URL="../Images/Home Page.png"/>
+					<Item Name="Mode Page.png" Type="Document" URL="../Images/Mode Page.png"/>
+					<Item Name="Result Page.png" Type="Document" URL="../Images/Result Page.png"/>
 				</Item>
 				<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 			</Item>
