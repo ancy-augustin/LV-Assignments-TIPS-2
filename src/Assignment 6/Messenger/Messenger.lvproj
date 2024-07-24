@@ -34,11 +34,16 @@
 					</Item>
 				</Item>
 				<Item Name="Controls" Type="Folder">
+					<Item Name="Class DVR Ref.ctl" Type="VI" URL="../Controls/Class DVR Ref.ctl"/>
+					<Item Name="Launcher Data.ctl" Type="VI" URL="../Controls/Launcher Data.ctl"/>
+					<Item Name="Message Type.ctl" Type="VI" URL="../Controls/Message Type.ctl"/>
 					<Item Name="Messenger Data.ctl" Type="VI" URL="../Controls/Messenger Data.ctl"/>
 					<Item Name="Queue Element.ctl" Type="VI" URL="../Controls/Queue Element.ctl"/>
 					<Item Name="Queue Operation.ctl" Type="VI" URL="../Controls/Queue Operation.ctl"/>
 					<Item Name="Receiver Data.ctl" Type="VI" URL="../Controls/Receiver Data.ctl"/>
+					<Item Name="Type Class Ref.ctl" Type="VI" URL="../Controls/Type Class Ref.ctl"/>
 					<Item Name="User Event Operations.ctl" Type="VI" URL="../Controls/User Event Operations.ctl"/>
+					<Item Name="VI reference.ctl" Type="VI" URL="../Controls/VI reference.ctl"/>
 				</Item>
 				<Item Name="SubVI" Type="Folder">
 					<Item Name="Queue Driver-Receive.vi" Type="VI" URL="../SubVI/Queue Driver-Receive.vi"/>
@@ -51,7 +56,6 @@
 				<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 			</Item>
 		</Item>
-		<Item Name="Message Type.ctl" Type="VI" URL="../Controls/Message Type.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
