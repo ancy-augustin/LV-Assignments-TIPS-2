@@ -31,19 +31,19 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		</Item>
-		<Item Name="Send Message API.vi" Type="VI" URL="../Methods/Send Message API.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;4!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-E"Q!"Y!!!Y-2'&amp;U93ZM&gt;G.M98.T!!!918*J&gt;'BF&lt;76U;7-A4X"F=G&amp;U;7^O)'FO!!!61(!!)!!"!!9!#%2B&gt;'%A2&amp;:3!!![1(!!(A!!&amp;R6$&lt;WVN&gt;7ZJ9W&amp;U;7^O,GRW9WRB=X-!'%&amp;S;82I:7VF&gt;'FD)%^Q:8*B&gt;'FP&lt;C"J&lt;A!!&amp;5"Q!#!!!1!)!!B5?8"F)%275A!!6!$Q!!Q!!Q!%!!1!"!!%!!1!"!!%!!5!"!!(!!E$!!"Y!!!.#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!#!!!!!A!!!!!!1!+!!!!!!</Property>
+		<Item Name="Send Data API.vi" Type="VI" URL="../Methods/Send Data API.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;C!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!$J!=!!?!!!8&amp;5.P&lt;7VV&lt;GFD982J&lt;WYO&lt;(:D&lt;'&amp;T=Q!918*J&gt;'BF&lt;76U;7-A4X"F=G&amp;U;7^O)'FO!!!:1(!!)!!"!!5!$&amp;2Z='5A2&amp;:3)%^V&gt;!!!&amp;E"1!!-!!!!"!!))28*S&lt;X)A37Y!!$*!=!!?!!!/$%2B&gt;'%O&lt;(:D&lt;'&amp;T=Q!!'%&amp;S;82I:7VF&gt;'FD)%^Q:8*B&gt;'FP&lt;C"J&lt;A!!&amp;5"Q!#!!!1!)!!B%982B)%275A!!&amp;5"Q!#!!!1!&amp;!!B5?8"F)%275A!!6!$Q!!Q!!Q!%!!1!"A!%!!1!"!!%!!=!"!!*!!I$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!#!!!!!A!!!!!!1!,!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">134217728</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 		</Item>
-		<Item Name="Send Message.vi" Type="VI" URL="../Methods/Send Message.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;G!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!8&amp;5.P&lt;7VV&lt;GFD982J&lt;WYO&lt;(:D&lt;'&amp;T=Q!1476T=W&amp;H:3"5?8"F)'^V&gt;!!!-E"Q!"Y!!!Y-2'&amp;U93ZM&gt;G.M98.T!!!918*J&gt;'BF&lt;76U;7-A4X"F=G&amp;U;7^O)'FO!!!61(!!)!!"!!9!#%2B&gt;'%A2&amp;:3!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$"!=!!?!!!8&amp;5.P&lt;7VV&lt;GFD982J&lt;WYO&lt;(:D&lt;'&amp;T=Q!0476T=W&amp;H:3"5?8"F)'FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"Q!)!!1!"!!*!A!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!A!!!!)!!!!!!!!!!!!!!#1!!!!!!%!#A!!!!!</Property>
+		<Item Name="Send Data.vi" Type="VI" URL="../Methods/Send Data.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;?!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!$*!=!!?!!!8&amp;5.P&lt;7VV&lt;GFD982J&lt;WYO&lt;(:D&lt;'&amp;T=Q!21W^N&lt;86O;7.B&gt;'FP&lt;C"P&gt;81!-E"Q!"Y!!!Y-2'&amp;U93ZM&gt;G.M98.T!!!918*J&gt;'BF&lt;76U;7-A4X"F=G&amp;U;7^O)'FO!!!61(!!)!!"!!9!#%2B&gt;'%A2&amp;:3!!!71&amp;!!!Q!!!!%!!AB&amp;=H*P=C"*&lt;A!!-E"Q!"Y!!"=61W^N&lt;86O;7.B&gt;'FP&lt;CZM&gt;G.M98.T!""$&lt;WVN&gt;7ZJ9W&amp;U;7^O)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!=!#!!%!!1!#1)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!)!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!I!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">134217728</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1207959552</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>

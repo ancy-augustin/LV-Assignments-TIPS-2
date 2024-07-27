@@ -12,7 +12,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Source" Type="Folder">
-			<Item Name="Messenger" Type="Folder">
+			<Item Name="Sender-Receiver Communication" Type="Folder">
 				<Item Name="Classes" Type="Folder">
 					<Item Name="Communication" Type="Folder">
 						<Item Name="Children" Type="Folder">
