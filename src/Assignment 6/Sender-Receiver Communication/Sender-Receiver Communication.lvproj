@@ -1,6 +1,8 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="23008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str">The project containsthe classes and methods to perform the data transmission between sender and the receiver.</Property>
+	<Property Name="NI.Project.SaveVersion" Type="Str">Editor version</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -38,24 +40,23 @@
 					</Item>
 				</Item>
 				<Item Name="Controls" Type="Folder">
-					<Item Name="Class DVR Ref.ctl" Type="VI" URL="../Controls/Class DVR Ref.ctl"/>
+					<Item Name="SubVI" Type="Folder">
+						<Item Name="Queue Driver-Receive.vi" Type="VI" URL="../SubVI/Queue Driver-Receive.vi"/>
+						<Item Name="Queue Driver-Sender.vi" Type="VI" URL="../SubVI/Queue Driver-Sender.vi"/>
+						<Item Name="Queue Driver.vi" Type="VI" URL="../SubVI/Queue Driver.vi"/>
+						<Item Name="User Event LV2-Receive.vi" Type="VI" URL="../SubVI/User Event LV2-Receive.vi"/>
+						<Item Name="User Event LV2-Sender.vi" Type="VI" URL="../SubVI/User Event LV2-Sender.vi"/>
+						<Item Name="User Event LV2.vi" Type="VI" URL="../SubVI/User Event LV2.vi"/>
+					</Item>
+					<Item Name="Communication Class Details.ctl" Type="VI" URL="../Controls/Communication Class Details.ctl"/>
+					<Item Name="Communication Type.ctl" Type="VI" URL="../Controls/Communication Type.ctl"/>
+					<Item Name="Data Class Details.ctl" Type="VI" URL="../Controls/Data Class Details.ctl"/>
 					<Item Name="Launcher Data.ctl" Type="VI" URL="../Controls/Launcher Data.ctl"/>
-					<Item Name="Message Type.ctl" Type="VI" URL="../Controls/Message Type.ctl"/>
-					<Item Name="Messenger Data.ctl" Type="VI" URL="../Controls/Messenger Data.ctl"/>
 					<Item Name="Queue Element.ctl" Type="VI" URL="../Controls/Queue Element.ctl"/>
 					<Item Name="Queue Operation.ctl" Type="VI" URL="../Controls/Queue Operation.ctl"/>
 					<Item Name="Receiver Data.ctl" Type="VI" URL="../Controls/Receiver Data.ctl"/>
-					<Item Name="Type Class Ref.ctl" Type="VI" URL="../Controls/Type Class Ref.ctl"/>
+					<Item Name="Sender Data.ctl" Type="VI" URL="../Controls/Sender Data.ctl"/>
 					<Item Name="User Event Operations.ctl" Type="VI" URL="../Controls/User Event Operations.ctl"/>
-					<Item Name="VI reference.ctl" Type="VI" URL="../Controls/VI reference.ctl"/>
-				</Item>
-				<Item Name="SubVI" Type="Folder">
-					<Item Name="Queue Driver-Receive.vi" Type="VI" URL="../SubVI/Queue Driver-Receive.vi"/>
-					<Item Name="Queue Driver-Sender.vi" Type="VI" URL="../SubVI/Queue Driver-Sender.vi"/>
-					<Item Name="Queue Driver.vi" Type="VI" URL="../SubVI/Queue Driver.vi"/>
-					<Item Name="User Event LV2-Receive.vi" Type="VI" URL="../SubVI/User Event LV2-Receive.vi"/>
-					<Item Name="User Event LV2-Sender.vi" Type="VI" URL="../SubVI/User Event LV2-Sender.vi"/>
-					<Item Name="User Event LV2.vi" Type="VI" URL="../SubVI/User Event LV2.vi"/>
 				</Item>
 				<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 			</Item>
